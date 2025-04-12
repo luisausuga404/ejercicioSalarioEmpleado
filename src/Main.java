@@ -3,22 +3,8 @@ import java.util.Scanner;/*importo la biblioteca para usar el Scaner*/
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);/*defino clase para capturar valores por teclado*/
-        String nombreEmpleado = "";
-        String documentoEmpleado = "";
-        double salarioBruto = 0;
-        double salarioNeto = 0;
-        double valorHora = 0;
-        double cantidadHoras = 0;
-        double deducionSalud = 0;
-        double deducionPension = 0;
-        double horasExtras = 0;
-        double valorHoraExtras = 0;
-        double bonificacion = 0;
-        double fondoSolidarioPensional = 0;
-        double valorRentencionFuente = 0;
-        double auxilioTransporte = 0;
-        double salarioMinimo = 0;
-
+        String nombreEmpleado = "", documentoEmpleado = "";
+        double salarioBruto, salarioNeto = 0, valorHora = 0, cantidadHoras = 0, deducionSalud = 0, deducionPension = 0, horasExtras = 0, valorHoraExtras = 0, bonificacion = 0, fondoSolidarioPensional = 0, valorRentencionFuente = 0, auxilioTransporte = 0, salarioMinimo = 0;
         System.out.println("ingrese el nombre del empleado:");
         nombreEmpleado = sc.nextLine();
         System.out.println("ingrese el documento del empleado");
